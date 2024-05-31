@@ -12,6 +12,11 @@ const Index = () => {
             <Button colorScheme="teal" size="lg" mt={4}>Learn More About Me</Button>
           </Link>
         </Box>
+        <Box>
+          <Link to="/add-post">
+            <Button colorScheme="teal" size="lg" mt={4}>Add New Post</Button>
+          </Link>
+        </Box>
       </VStack>
     </Container>
   );
